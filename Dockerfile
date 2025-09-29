@@ -6,6 +6,6 @@ COPY . .
 
 RUN pip install --no-cache-dir -r requirements-prod.txt
 
-EXPOSE 3000
+EXPOSE 3001
 
 CMD ["python3", "-m", "flask", "run", "--host=0.0.0.0"]
